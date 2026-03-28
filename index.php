@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remarkable Hectares</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #f5f3ee;
+      display: flex;
+      justify-content: center;
+      align-items:center; /* flex-start FIX */
+       /* min-height: 100vh;      FIX */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 230px;
+      max-width: 80%;
+      height: auto;
+    }
+
+    .slogan {
+      font-size: 20px;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    .remarkable img {
+      height: 14px;
+      vertical-align: middle;
+    }
+
+    .email a {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      word-break: break-word;
+    }
+
+    .email a:hover {
+      color: #b89b5e;
+    }
+
+    /* 📱 Mobile Responsive */
+    @media (max-width: 768px) {
+      .slogan {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .remarkable img {
+        height: 11px;
+      }
+
+      .logo img {
+        max-width: 70%;
+      }
+
+      .email a {
+        font-size: 14px;
+      }
+     
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="images/RH_Logo.webp" alt="Remarkable Hectares Logo">
+    </div>
+
+    <!-- SLOGAN -->
+    <div class="slogan">
+      Bringing 
+      <span class="remarkable">
+        <img src="images/finalfont2.png" alt="Remarkable">
+      </span>
+      Thai Culture to the Philippines
+    </div>
+
+    <!-- EMAIL -->
+    <div class="email">
+      <a href="mailto:info@Remarkable-Hectares.com">
+        info@Remarkable-Hectares.com
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
